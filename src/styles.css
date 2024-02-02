@@ -1,0 +1,44 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: bisque;
+}
+
+.nav-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+button {
+    margin-left: 1rem;
+}
+
+.inner-container {
+    margin-top: 5vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+img {
+    width: 30vw;
+    height: 30vw;
+    border-radius: 1rem;
+    margin-right: 1rem;
+}
+
+footer {
+    text-align: center;
+    background-color: bisque;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 5vh;
+    padding-top: 1rem;
+    margin-top: 1rem;
+}
