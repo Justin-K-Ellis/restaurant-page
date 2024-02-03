@@ -38,13 +38,8 @@ const makeHomePage = () => {
     p2.textContent = para2;
     let p3 = document.createElement("p");
     p3.textContent = para3;
-    
-    // Footer
-    // let footer = document.createElement("footer");
-    // footer.textContent = address;
 
     // Append elements
-    // content.appendChild(footer);
     content.appendChild(innerContainer);
     innerContainer.appendChild(img);
     info.appendChild(h1);
@@ -52,8 +47,6 @@ const makeHomePage = () => {
     info.appendChild(p2);
     info.appendChild(p3);
     innerContainer.appendChild(info);
-
-    // innerContainer
 }
 
 export default makeHomePage;
