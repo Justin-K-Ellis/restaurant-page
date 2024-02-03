@@ -24,6 +24,7 @@ const makeMenuPage = () => {
 
     // Yakisoba
     let yakisobaDiv = document.createElement("div");
+    yakisobaDiv.classList.add("menu-item");
     let yakisoba_h3 =document.createElement("h3");
     yakisoba_h3.textContent = yakisobaTitle;
     let yakisoba_p = document.createElement("p");
@@ -33,6 +34,7 @@ const makeMenuPage = () => {
 
     // Hiroshima-yaki
     let hiroshimayakiDiv = document.createElement("div");
+    hiroshimayakiDiv.classList.add("menu-item");
     let hiroshimayaki_h3 =document.createElement("h3");
     hiroshimayaki_h3.textContent = hiroshimaYakiTitle;
     let hiroshimayaki_p = document.createElement("p");
@@ -42,6 +44,7 @@ const makeMenuPage = () => {
 
     // Soba
     let sobaDiv = document.createElement("div");
+    sobaDiv.classList.add("menu-item");
     let soba_h3 =document.createElement("h3");
     soba_h3.textContent = sobaTitle;
     let soba_p = document.createElement("p");

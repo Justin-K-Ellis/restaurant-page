@@ -1,6 +1,7 @@
 import css from "./styles.css";
 import makeHomePage from "./pages/home.js";
 import makeAboutPage from "./pages/about";
+import makeMenuPage from "./pages/menu";
 
 // DOM elements
 let content = document.querySelector("#content");
@@ -18,6 +19,10 @@ homeBtn.addEventListener("click", () => {
 });
 
 // TODO: Menu Page
+menuBtn.addEventListener("click", () => {
+    clearContent();
+    makeMenuPage();
+})
 
 aboutBtn.addEventListener("click", () => {
     clearContent();
