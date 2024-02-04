@@ -18,7 +18,6 @@ homeBtn.addEventListener("click", () => {
     makeHomePage();
 });
 
-// TODO: Menu Page
 menuBtn.addEventListener("click", () => {
     clearContent();
     makeMenuPage();
