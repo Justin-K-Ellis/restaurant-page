@@ -27,6 +27,8 @@ const makeHomePage = () => {
     // Img
     let img = document.createElement("img");
     img.src = "../src/img/yakisoba_1.jpeg";
+    img.setAttribute("alt");
+    img.alt.value = "A closeup of a plate of yakisoba.";
 
     // Info
     let info = document.createElement("info");
