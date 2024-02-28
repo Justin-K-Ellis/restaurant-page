@@ -28,8 +28,7 @@ const makeAboutPage = () => {
         // Img
         let img = document.createElement("img");
         img.src = "../src/img/yakisoba_2.jpeg";
-        img.setAttribute("alt");
-        img.alt.value = "A man holding up a plate of yakisoba.";
+        img.setAttribute("alt", "A man holding up a plate of yakisoba.");
     
         // Info
         let info = document.createElement("info");
